@@ -3,7 +3,7 @@
 <template>
     <div>
         <header class="pt-4 px-4 lg:px-12 font-lexend">
-            <nav class="mx-auto p-4 py-3 h-14 bg-[#ffb5cd] text-white flex justify-between shadow-lg rounded-2xl z-10">
+            <nav class="mx-auto p-4 py-3 h-14 bg-[#bda2ab] text-white flex justify-between shadow-lg rounded-2xl z-10">
                 <div class="w-fit">
                     <NuxtLink to="/" class="navbar__link" aria-label="Choco Logo">
                         <img src="/img/logo.webp" alt="Logo" class="w-24 h-auto" width="0" height="0" />

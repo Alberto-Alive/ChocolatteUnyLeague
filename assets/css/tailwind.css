@@ -26,10 +26,10 @@ html {
 
 /* Navigation links */
 li .navbar__link {
-    @apply hover:bg-chocolate-600 hover:rounded-md hover:text-[#ffb5cd] hover:block hover:h-7 hover:text-center transition-all;
+    @apply hover:bg-chocolate-1000 hover:rounded-md hover:text-[#ed1c38] hover:block hover:h-7 hover:text-center transition-all;
 }
 li .navbar__link.router-link-exact-active {
-    @apply bg-chocolate-600 rounded-md text-[#ffb5cd] block h-7 w-10 text-center;
+    @apply bg-chocolate-1000 rounded-md text-[#ed1c38] block h-7 w-10 text-center;
 }
 
 /* Browser scrollbar */

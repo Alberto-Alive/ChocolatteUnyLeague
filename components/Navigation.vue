@@ -3,10 +3,10 @@
 <template>
     <div>
         <header class="pt-4 px-4 lg:px-12 font-lexend">
-            <nav class="mx-auto p-4 py-3 h-14 bg-[#bda2ab] text-white flex justify-between shadow-lg rounded-2xl z-10">
+            <nav class="mx-auto p-4 py-3 h-14 bg-[#f2e6e8] text-white flex justify-between shadow-lg rounded-2xl z-10">
                 <div class="w-fit">
                     <NuxtLink to="/" class="navbar__link" aria-label="Choco Logo">
-                        <img src="/img/logored.png" alt="Logo" class="w-12 h-auto" width="0" height="0" />
+                        <img src="/img/logo.png" alt="Logo" class="w-12 h-auto" width="0" height="0" />
                     </NuxtLink>
                 </div>
                 <div class="bg-white h-8 text-chocolate-900 rounded-lg px-4 transition-all">

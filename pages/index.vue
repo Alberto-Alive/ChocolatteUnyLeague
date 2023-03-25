@@ -7,7 +7,7 @@ useHead({
 <template>
     <FullScreenCard class="lg:flex h-auto">
         <div class="hidden p-2 lg:block lg:py-16 lg:flex-1">
-            <img src="/img/neko_half.webp" alt="Model" class="h-[30rem] w-auto m-auto" height="0" width="0" />
+            <img src="/img/students.png" alt="Model" class="h-[30rem] w-auto m-auto" height="0" width="0" />
         </div>
         <div class="p-2 lg:py-16 lg:flex lg:w-1/2">
             <div class="my-4 lg:mt-28">

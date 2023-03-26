@@ -14,9 +14,9 @@ useHead({
                 <h1 class="text-3xl text-chocolate-800 text-center font-bold">📜 Welcome to Unyleague 你好</h1>
                 <h2 class="text-md text-slate-400 text-center font-bold italic">parties / memories / friends</h2>
                 <p class="text-base text-chocolate-700 my-3 text-center">
-                    Hello everyone, my name is Unyleague. I am a platform for students where you can socialise, make friends, and have parties.
+                    Hello everyone, my name is Unyleague. I am a platform for students where you can socialise, make friends, and have fun.
                     I have fraternities and sororities for you to join in. I will help you organise parties and find your partner in 💕
-                    I will be your memory album and I will remain your forever friend so we can look back together at the good times we had.
+                    I will be your memory album and will remain your forever friend so we can look back together at the good times we had.
                 </p>
             </div>
         </div>

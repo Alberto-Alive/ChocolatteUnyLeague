@@ -18,7 +18,7 @@
                         </li>
                         <li class="navbar__list">
                             <NuxtLink to="/about" class="navbar__link" aria-label="About page"
-                                ><Icon name="material-symbols:person"
+                                ><Icon name="material-symbols:overview"
                             /></NuxtLink>
                         </li>
                         <li class="navbar__list">

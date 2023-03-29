@@ -1,6 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
+    <VitarView />
     <div>
         <header class="pt-4 px-4 lg:px-12 font-lexend">
             <nav class="mx-auto p-4 py-3 h-14 bg-[#f2e6e8] text-white flex justify-between shadow-lg rounded-2xl z-10">

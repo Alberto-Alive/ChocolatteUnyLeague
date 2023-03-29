@@ -22,6 +22,7 @@
         "nuxt-jsonld": "2.0.7",
         "prettier": "2.8.6",
         "sitemap-generator-cli": "7.5.0",
-        "typescript": "5.0.2"
+        "typescript": "5.0.2",
+        "@cloudgeek/vitar": "^0.1.11"
     }
 }

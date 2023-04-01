@@ -18,18 +18,19 @@
                             /></NuxtLink>
                         </li>
                         <li class="navbar__list">
-                            <NuxtLink to="/about" class="navbar__link" aria-label="About page"
-                                ><Icon name="material-symbols:overview"
+                            <NuxtLink to="/students" class="navbar__link" aria-label="Students page"
+                                ><Icon name="mdi:account-school"
+                            /></NuxtLink>
+                        </li>
+                       
+                        <li class="navbar__list">
+                            <NuxtLink to="/university" class="navbar__link" aria-label="University page"
+                                ><Icon name="mdi:school"
                             /></NuxtLink>
                         </li>
                         <li class="navbar__list">
                             <NuxtLink to="/models" class="navbar__link" aria-label="Models page"
-                                ><Icon name="mdi:tshirt-crew"
-                            /></NuxtLink>
-                        </li>
-                        <li class="navbar__list">
-                            <NuxtLink to="/commision" class="navbar__link" aria-label="Commision page"
-                                ><Icon name="mdi:paintbrush"
+                                ><Icon name="material-symbols:groups"
                             /></NuxtLink>
                         </li>
                         <li class="navbar__list">

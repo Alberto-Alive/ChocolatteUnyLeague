@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Vitar } from '@cloudgeek/vitar';
 const showCam = ref(false);
-const showMesh = ref(true);
+const showMesh = ref(false);
 const model = ref<boolean | string>(true);
 const names = ['Haru', 'Hiyori', 'Mark', 'Natori', 'Rice'];
 const name = names[2];

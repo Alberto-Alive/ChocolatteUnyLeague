@@ -2,6 +2,7 @@
 useHead({
     title: 'University',
 });
+const identity_text = ref('Memories, Parties, Dates');
 </script>
 
 <template>
@@ -31,20 +32,20 @@ useHead({
                 <li>User data is not sold to 3rd parties, yet minimal information (like degree, interests) may be used for targetted advertising </li>
                 <li>Graduating users receive an album with their memories, their accounts are disabled and universities are no longer charged for those users</li>
             </ul>
-            <h2 class="text-lg text-chocolate-600 font-semibold my-2">Three services</h2>
+            <h2 class="text-lg text-chocolate-600 font-semibold my-2">Three services:  {{ identity_text }}</h2>
             <div class="grid grid-cols-1 gap-2 md:grid-cols-3 mt-4">
-                <div class="grid-card group flex items-center justify-center">
-                    <img class="object-cover  m-auto" src="/img/art/b2.png" style="width: 300px; height: 200px;" alt="Free communication*" />
+                <div class="grid-card group flex items-center justify-center"  @mouseover=" identity_text = 'Memories'" @mouseleave= " identity_text = '📷'">
+                    <img class="object-cover  m-auto" src="/img/art/selfie.gif" style="width: 350px; height: 200px;" alt="Free communication*" />
                 </div>
-                <div class="grid-card group bg-[#c9ecff] flex items-center justify-center">
-                    <img class="object-cover object-center m-auto" src="/img/art/pngegg.png" style="width: 300px; height: 200px;" alt="Free advertising**" />
+                <div class="grid-card group bg-[#c9ecff] flex items-center justify-center" @mouseover=" identity_text = 'Parties'" @mouseleave= " identity_text = '🎉'">
+                    <img class="object-cover object-center m-auto" src="/img/art/party.gif" style="width: 350px; height: 200px;" alt="Free advertising**" />
                 </div>
-                <div class="grid-card group bg-[#edcaf4] flex items-center justify-center">
-                    <img class="object-cover object-center m-auto" src="/img/art/b1.png" style="width: 140px; height: 100px;" alt="Free merghandising***" />
+                <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" @mouseover=" identity_text = 'Dates'" @mouseleave= " identity_text = '💓'">
+                    <img class="object-cover object-center m-auto" src="/img/art/love.gif" style="width: 350px; height: 200px;" alt="Free merghandising***" />
                 </div>
             </div>
             <h2 class="text-lg text-chocolate-600 font-semibold my-4">Make a deal now!</h2>
-            <Button class="w-full lg:w-52" name="Pay" icon="uiw:pay" dest="/donation" />
+            <Button class="w-full lg:w-52" name="Sign Up" icon="uiw:pay" dest="/donation" />
         </div>
     </FullScreenCard>
 </template>

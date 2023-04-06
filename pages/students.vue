@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-    title: 'For students',
+    title: 'Students',
 });
 
 const _sns = ref([

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-    title: 'University',
+    title: 'Universities',
 });
 const identity_text = ref('Memories, Parties, Dates');
 </script>
@@ -11,9 +11,9 @@ const identity_text = ref('Memories, Parties, Dates');
             <h1 class="text-3xl text-chocolate-800 font-bold">For Universities</h1>
             <h2 class="text-lg text-chocolate-600 font-semibold my-2">Service price list:</h2>
             <p class="text-base text-chocolate-700">
-                ❥ per Student / per Year - £60
+                ❥ per Student / per Year - £100
                 <br />
-                ❥ per Student / per Month - £6
+                ❥ per Student / per Month - £10
                 <br />
                 ❥ per Advert / cost-per-click - £0.50
                 <br />
@@ -35,16 +35,19 @@ const identity_text = ref('Memories, Parties, Dates');
             <h2 class="text-lg text-chocolate-600 font-semibold my-2">Three services:  {{ identity_text }}</h2>
             <div class="grid grid-cols-1 gap-2 md:grid-cols-3 mt-4">
                 <div class="grid-card group flex items-center justify-center"  @mouseover=" identity_text = 'Memories'" @mouseleave= " identity_text = '📷'">
-                    <img class="object-cover  m-auto" src="/img/art/selfie.gif" style="width: 350px; height: 200px;" alt="Free communication*" />
+                    <img class="grid-card-img  object-cover  m-auto" src="/img/art/selfie.gif" style="width: 350px; height: 200px;" alt="Memories" />
+                    <p class="text-lg text-chocolate-600 font-semibold my-2">Memories</p>
                 </div>
                 <div class="grid-card group bg-[#c9ecff] flex items-center justify-center" @mouseover=" identity_text = 'Parties'" @mouseleave= " identity_text = '🎉'">
-                    <img class="object-cover object-center m-auto" src="/img/art/party.gif" style="width: 350px; height: 200px;" alt="Free advertising**" />
+                    <img class="grid-card-img object-cover object-center m-auto" src="/img/art/party.gif" style="width: 350px; height: 200px;" alt="Parties" />
+                <p class="text-2xl text-chocolate-600 font-semibold my-2">Parties</p>
                 </div>
                 <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" @mouseover=" identity_text = 'Dates'" @mouseleave= " identity_text = '💓'">
-                    <img class="object-cover object-center m-auto" src="/img/art/love.gif" style="width: 350px; height: 200px;" alt="Free merghandising***" />
+                    <img class="grid-card-img  object-cover object-center m-auto" src="/img/art/love.gif" style="width: 350px; height: 200px;" alt="Dates" />
+                    <p class="text-4xl text-chocolate-600 font-semibold my-2">Dates</p>
                 </div>
             </div>
-            <h2 class="text-lg text-chocolate-600 font-semibold my-4">Make a deal now!</h2>
+            <h2 class="text-xl text-chocolate-600 font-semibold my-4">Make a deal now!</h2>
             <Button class="w-full lg:w-52" name="Sign Up" icon="uiw:pay" dest="/donation" />
         </div>
     </FullScreenCard>

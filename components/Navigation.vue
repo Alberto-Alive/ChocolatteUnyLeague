@@ -54,5 +54,4 @@
         </header>
     </div>
 </template>
-
 <style></style>

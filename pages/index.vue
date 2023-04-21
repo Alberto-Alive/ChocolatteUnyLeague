@@ -24,9 +24,9 @@ useHead({
                 <div class="lg:mt-10">
                     <h1 class="text-3xl text-chocolate-800 text-center font-bold">..a social platform exclusive for
                         students:</h1>
-                    <h2 class="text-xl text-rose-500 text-center italic">❧ ORGANISE PARTIES</h2>
-                    <h2 class="text-xl text-rose-400 text-center italic">❧ SHARE PICTURES</h2>
-                    <h2 class="text-xl text-rose-300 text-center italic">❧ DATE PEOPLE</h2>
+                    <h2 class="text-xl text-chocolate-800 text-center italic">❧ ORGANISE PARTIES</h2>
+                    <h2 class="text-xl text-chocolate-800 text-center italic">❧ SHARE PICTURES</h2>
+                    <h2 class="text-xl text-chocolate-800 text-center italic">❧ DATE PEOPLE</h2>
                 </div>
             </div>
 

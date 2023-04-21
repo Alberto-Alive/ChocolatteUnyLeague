@@ -34,7 +34,7 @@
                             /></NuxtLink>
                         </li>
                         <li class="navbar__list">
-                            <NuxtLink to="/donation" class="navbar__link" aria-label="Donation page"
+                            <NuxtLink to="/contact" class="navbar__link" aria-label="Contact page"
                                 ><Icon name="bxs:donate-heart"
                             /></NuxtLink>
                         </li>

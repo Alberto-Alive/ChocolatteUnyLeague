@@ -48,7 +48,7 @@ const identity_text = ref('Memories, Parties, Dates');
                 </div>
             </div>
             <h2 class="text-xl text-chocolate-600 font-semibold my-4">Make a deal now!</h2>
-            <Button class="w-full lg:w-52" name="Sign Up" icon="uiw:pay" dest="/donation" />
+            <Button class="w-full lg:w-52" name="Sign Up" icon="uiw:pay" dest="/contact" />
         </div>
     </FullScreenCard>
 </template>

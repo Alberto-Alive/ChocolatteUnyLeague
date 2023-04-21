@@ -2,7 +2,7 @@
 useHead({
     title: 'Students',
 });
-
+const identity_text = ref('Memories, Parties, Dates');
 const _sns = ref([
     { name: 'Facebook', icon: 'mdi:facebook', url: 'https://www.facebook.com/ChocoLatte.Channel' },
     { name: 'Linkedin', icon: 'mdi:linkedin', url: 'https://www.facebook.com/ChocoLatte.Channel' },
@@ -34,14 +34,6 @@ const _sns = ref([
                     Excited already!?! You have to <span class="italic">/ TRY /</span>
                     it first!
                 </p>
-                <h2 class="text-lg text-chocolate-600 font-bold my-2">Together we can:</h2>
-                <p class="text-base text-chocolate-700">
-                    ❥ Post pictures!
-                    <br />
-                    ❥ Organise parties!
-                    <br />
-                    ❥ Go on dates!
-                </p>
             </div>
             <div class="p-2 lg:py-9 lg:flex lg:w-1/2">
                 <div class="">
@@ -56,46 +48,54 @@ const _sns = ref([
                 </div>
             </div>
         </div>
+        <h2 class="text-lg text-chocolate-600 font-bold my-2">Together we can have: {{ identity_text }}</h2>
         <div class="lg:flex">
             <div class="p-2 lg:py-3 lg:flex-1">
-                <h1 class="text-3xl text-chocolate-700 font-bold">Likes</h1>
-                <h2 class="text-lg text-chocolate-600 font-bold my-2">What Unyleague likes?</h2>
+                <h1 class="text-3xl text-chocolate-700 font-bold">Memories</h1>
+                <h2 class="text-lg text-chocolate-600 font-bold my-2">Share pictures with your</h2>
                 <ul class="list-disc text-chocolate-700 mx-5">
-                    <li>Safety</li>
-                    <li>Privacy</li>
-                    <li>Security</li>
-                    <li>You</li>
+                    <li>Colleagues</li>
+                    <li>Fraternities</li>
+                    <li>and Sororities</li>
                 </ul>
             </div>
             <div class="p-2 lg:py-3 lg:flex lg:w-1/3">
                 <div class="">
-                    <h1 class="text-3xl text-chocolate-800 font-bold">Dislikes</h1>
-                    <h2 class="text-lg text-chocolate-600 font-bold my-2">What Unyleague dislikes?</h2>
+                    <h1 class="text-3xl text-chocolate-800 font-bold">Parties</h1>
+                    <h2 class="text-lg text-chocolate-600 font-bold my-2">Create and join parties with your</h2>
                     <ul class="list-disc text-chocolate-700 mx-5">
-                        <li>Rude people</li>
-                        <li>Agressive behaviour</li>
-                        <li>Bad words</li>
-                        <li>Wrong kind of pictures <span class="font-bold">🚩 :P</span></li>
-                        <li>Sad feelings</li>
-                        <li>Anything but You</li>
+                        <li>Colleagues</li>
+                        <li>Fraternities</li>
+                        <li>and Sororities</li>
                     </ul>
                 </div>
             </div>
             <div class="p-2 lg:py-3 lg:flex lg:w-1/3">
                 <div class="">
-                    <h1 class="text-3xl text-chocolate-800 font-bold">Goals</h1>
-                    <h2 class="text-lg text-chocolate-600 font-bold my-2">Things I can help you with</h2>
+                    <h1 class="text-3xl text-chocolate-800 font-bold">Dates</h1>
+                    <h2 class="text-lg text-chocolate-600 font-bold my-2">Super-like someone to</h2>
                     <ul class="list-disc text-chocolate-700 mx-5">
-                        <li>Get university updates</li>
-                        <li>Find or create events and parties</li>
                         <li>Make new friends</li>
-                        <li>Share pictures with others</li>
-                        <li>Find love</li>
-                        <li>Stay sane, happy and safe</li>
+                        <li>Go on dates</li>
+                        <li>Fall in love</li>
                     </ul>
                 </div>
             </div>
         </div>
+        <div class="grid grid-cols-1 gap-2 md:grid-cols-3 mt-4">
+                <div class="grid-card group flex items-center justify-center"  @mouseover=" identity_text = 'Memories'" @mouseleave= " identity_text = '📷'">
+                    <img class="grid-card-img  object-cover  m-auto" src="/img/art/selfie.gif" style="width: 350px; height: 200px;" alt="Memories" />
+                    <p class="text-lg text-chocolate-600 font-semibold my-2">Memories</p>
+                </div>
+                <div class="grid-card group bg-[#c9ecff] flex items-center justify-center" @mouseover=" identity_text = 'Parties'" @mouseleave= " identity_text = '🎉'">
+                    <img class="grid-card-img object-cover object-center m-auto" src="/img/art/party.gif" style="width: 350px; height: 200px;" alt="Parties" />
+                <p class="text-2xl text-chocolate-600 font-semibold my-2">Parties</p>
+                </div>
+                <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" @mouseover=" identity_text = 'Dates'" @mouseleave= " identity_text = '💓'">
+                    <img class="grid-card-img  object-cover object-center m-auto" src="/img/art/love.gif" style="width: 350px; height: 200px;" alt="Dates" />
+                    <p class="text-4xl text-chocolate-600 font-semibold my-2">Dates</p>
+                </div>
+            </div>
         <div class="p-2">
             <h1 class="text-3xl text-chocolate-800 font-bold">Visit me :)</h1>
             <div class="lg:grid grid-cols-1 lg:gap-2 md:grid-cols-3 mt-4">

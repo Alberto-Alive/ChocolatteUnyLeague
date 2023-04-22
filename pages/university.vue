@@ -9,18 +9,15 @@ const identity_text = ref('Memories, Parties, Dates');
     <FullScreenCard class="h-auto">
         <div class="p-2 lg:py-9">
             <h1 class="text-3xl text-chocolate-800 font-bold">For Universities</h1>
-            <h2 class="text-lg text-chocolate-600 font-semibold my-2">Service price list:</h2>
+            <h2 class="text-lg text-chocolate-600 font-semibold my-2">What's in for you:</h2>
             <p class="text-base text-chocolate-700">
-                ❥ per Student / per Year - £100
+                ❥ keep in touch with your students 
                 <br />
-                ❥ per Student / per Month - £10
+                ❥ promote your services and courses
                 <br />
-                ❥ per Advert / cost-per-click - £0.50
+                ❥ create an attractive academic environment
                 <br />
-                ❥ per Advert / cost-per-mile - £10
-                <br />
-                ❥ per Advert / cost-per-action - £100
-            </p><br />
+            </p>
             <h2 class="text-lg text-chocolate-600 font-semibold my-2">Terms of Service</h2>
             <ul class="list-disc text-chocolate-700 mx-5">
                 <li>Free advertisement and communication with your own students</li>

@@ -2,7 +2,7 @@
 useHead({
     title: 'Students',
 });
-const identity_text = ref('Memories, Parties, Dates');
+const identity_text = ref('Memories, Parties and Dates');
 const _sns = ref([
     { name: 'Facebook', icon: 'mdi:facebook', url: 'https://www.facebook.com/ChocoLatte.Channel' },
     { name: 'Linkedin', icon: 'mdi:linkedin', url: 'https://www.facebook.com/ChocoLatte.Channel' },
@@ -24,7 +24,7 @@ const _sns = ref([
                 <p class="text-base text-chocolate-700">
                     I'm so happy you've made it to university 🎈
                     <br /><br />
-                    You'll notice I'm only good at three things: pictures 📷 parties 🎉 and dates 💕
+                    You'll notice I'm only good at three things: {{ identity_text }}
                     <br />
                     Let's Get You in the Mood
                     <a href="https://youtu.be/2tKHWz4WlnM?t=26" class="underline" target="_blank" rel="noreferrer"
@@ -35,20 +35,13 @@ const _sns = ref([
                     it first!
                 </p>
             </div>
-            <div class="p-2 lg:py-9 lg:flex lg:w-1/2">
-                <div class="">
-                    <h1 class="text-3xl text-chocolate-800 font-bold">..my History</h1>
-                    <h2 class="text-lg text-chocolate-600 font-bold mt-2">October 02, 2022</h2>
-                    <p class="text-base text-chocolate-700">inspired by the American Pie to make the uni-life as amazing</p>
-                    <h2 class="text-lg text-chocolate-600 font-bold mt-2">January 11, 2023</h2>
-                    <p class="text-base text-chocolate-700">I embarked on this journey to make it happen</p>
-                    <h2 class="text-lg text-chocolate-600 font-bold mt-2">March 01, 2023</h2>
-                    <p class="text-base text-chocolate-700">and realised I can change students' life just by being</p>
-                    <p class="text-sm text-center text-chocolate-700 my-2">simple . . .</p>
-                </div>
+            <div class="lg:py-32">
+                <img src="/img/l1.png" alt="Traveler model" class="h-[7rem]" />
+            </div>
+            <div>
+                <img src="/img/cyc.png" alt="Traveler model" class="h-[15rem]" />
             </div>
         </div>
-        <h2 class="text-lg text-chocolate-600 font-bold my-2">Together we can have: {{ identity_text }}</h2>
         <div class="lg:flex">
             <div class="p-2 lg:py-3 lg:flex-1">
                 <h1 class="text-3xl text-chocolate-700 font-bold">Memories</h1>

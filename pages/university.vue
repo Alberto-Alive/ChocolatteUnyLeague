@@ -9,6 +9,8 @@ const identity_text = ref('Memories, Parties, Dates');
     <FullScreenCard class="h-auto">
         <div class="p-2 lg:py-9">
             <h1 class="text-3xl text-chocolate-800 font-bold">For Universities</h1>
+            <div class="flex flex-wrap">
+            <div class="p-2 lg:py-9 lg:w-1/2">
             <h2 class="text-lg text-chocolate-600 font-semibold my-2">What's in for you:</h2>
             <p class="text-base text-chocolate-700">
                 ❥ keep in touch with your students 
@@ -18,17 +20,14 @@ const identity_text = ref('Memories, Parties, Dates');
                 ❥ create an attractive academic environment
                 <br />
             </p>
-            <h2 class="text-lg text-chocolate-600 font-semibold my-2">Terms of Service</h2>
-            <ul class="list-disc text-chocolate-700 mx-5">
-                <li>Free advertisement and communication with your own students</li>
-                <li>Paid advertisement to students not studying at your university</li>
-                <li>The fees per student cover the server costs to protect their photo albums</li>
-                <li>There are no charges or fees incurred by students (fees are only charged to universities)</li>
-                <li>There should be no other type of users than those with the status of students enrolled at your university</li>
-                <li>We strive to keep students safe and provide them with quick-links for menthal-health or sexual-health related issues</li>
-                <li>User data is not sold to 3rd parties, yet minimal information (like degree, interests) may be used for targetted advertising </li>
-                <li>Graduating users receive an album with their memories, their accounts are disabled and universities are no longer charged for those users</li>
-            </ul>
+            <div>
+                <img src="/img/cyc.png" alt="Traveler model" class="h-[15rem]" />
+            </div>
+            </div>
+            <div class="pb-2 lg:flex-1">
+                <img src="/img/album.png" alt="Traveler model" class="h-[25rem] m-auto" />
+            </div>
+        </div>
             <h2 class="text-lg text-chocolate-600 font-semibold my-2">Three services:  {{ identity_text }}</h2>
             <div class="grid grid-cols-1 gap-2 md:grid-cols-3 mt-4">
                 <div class="grid-card group flex items-center justify-center"  @mouseover=" identity_text = 'Memories'" @mouseleave= " identity_text = '📷'">

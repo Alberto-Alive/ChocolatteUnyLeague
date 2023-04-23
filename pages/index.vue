@@ -17,7 +17,7 @@ useHead({
                     Hello everyone, my name is Unyleague. I am a platform for students where you can socialise, make
                     friends, and have fun.
                     I have fraternities and sororities for you to join in. I will help you organise parties and find your
-                    partner in 💕
+                    partner in 🖤
                     I will be your memory album and will remain your forever friend so we can look back together at the good
                     times we had.
                 </p>

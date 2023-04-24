@@ -2,7 +2,7 @@
 useHead({
     title: 'Universities',
 });
-const identity_text = ref('Communication, Promotion, Organisation');
+const identity_text = ref('Communication, Promotion, Environment');
 </script>
 
 <template>
@@ -32,15 +32,15 @@ const identity_text = ref('Communication, Promotion, Organisation');
             <div class="grid grid-cols-1 gap-2 md:grid-cols-3 mt-4">
                 <div class="grid-card group flex items-center justify-center"  @mouseover=" identity_text = 'Communication'" @mouseleave= " identity_text = '🎙️'">
                     <img class="grid-card-img  object-cover  m-auto" src="/img/art/u1.gif" style="width: 350px; height: 200px;" alt="Communication" />
-                    <p class="text-lg text-chocolate-600 font-semibold my-2">Communication</p>
+                    <p class="text-lg text-chocolate-600 font-semibold my-2">Communication Platform</p>
                 </div>
                 <div class="grid-card group bg-[#c9ecff] flex items-center justify-center" @mouseover=" identity_text = 'Promotion'" @mouseleave= " identity_text = '📰'">
                     <img class="grid-card-img object-cover object-center m-auto" src="/img/art/u2.gif" style="width: 350px; height: 200px;" alt="Promotion" />
-                <p class="text-2xl text-chocolate-600 font-semibold my-2">Promotion</p>
+                <p class="text-2xl text-chocolate-600 font-semibold my-2">Marketing Services</p>
                 </div>
-                <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" @mouseover=" identity_text = 'Organisation'" @mouseleave= " identity_text = '📏'">
+                <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" @mouseover=" identity_text = 'Environment'" @mouseleave= " identity_text = '📏'">
                     <img class="grid-card-img  object-cover object-center m-auto" src="/img/art/u3.gif" style="width: 350px; height: 200px;" alt="Organisation" />
-                    <p class="text-4xl text-chocolate-600 font-semibold my-2">Organisation</p>
+                    <p class="text-4xl text-chocolate-600 font-semibold my-2">Academic Engagement</p>
                 </div>
             </div>
             <h2 class="text-xl text-chocolate-600 font-semibold my-4">Make a deal now!</h2>

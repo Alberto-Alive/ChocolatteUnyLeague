@@ -43,8 +43,8 @@ const identity_text = ref('Communication, Promotion, Environment');
                     <p class="text-4xl text-chocolate-600 font-semibold my-2">Academic Engagement</p>
                 </div>
             </div>
-            <h2 class="text-xl text-chocolate-600 font-semibold my-4">Make a deal now!</h2>
-            <Button class="w-full lg:w-52" name="Sign Up" icon="uiw:pay" dest="/contact" />
+            <h2 class="text-xl text-chocolate-600 font-semibold my-4">Join us now!</h2>
+            <Button class="w-full lg:w-52" name="Contact" icon="uiw:right" dest="/contact" />
         </div>
     </FullScreenCard>
 </template>

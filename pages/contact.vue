@@ -31,11 +31,11 @@ const provider = ref([
                     </a>
                 </div>
                 <div >
-                <img src="/img/coffee.png" alt="Traveler model" class="h-[10rem]" />
+                <img src="/img/cupss.png" alt="Traveler model" class="h-[10rem]" />
             </div>
             </div>
             <div class="p-2 lg:flex-1">
-                <img src="/img/postman_1.png" alt="Traveler model" class="h-[25rem] m-auto" />
+                <img src="/img/postman_1aa.png" alt="Postman model" class="h-[25rem] m-auto" />
             </div>
         </div>
         <p class="text-lg text-chocolate-600 font-semibold my-2">We'll reply within 3-working days. Thanks for contacting us!</p>

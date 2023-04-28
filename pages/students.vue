@@ -27,15 +27,16 @@ const _sns = ref([
                     You'll notice I'm only good at three things: {{ identity_text }}
                     <br />
                     Let's Get You in the Mood
-                    <a href="https://youtu.be/2tKHWz4WlnM?t=26" class="underline" target="_blank" rel="noreferrer"
+                    <a href="https://youtu.be/2tKHWz4WlnM?t=26" class="underline" style="color:#5b2244;" target="_blank" rel="noreferrer"
                         >happy link?!?</a
-                    >.
+                    >
                     <br /><br />
-                    Excited already!?! You have to <span class="italic">/ TRY /</span>
-                    it first!
+                    Now is time for you to join a fraternity <span class="italic">/ or /</span> sorority.
+                    <br/>
+                    I hope you'll have a great time at uni ㊗️
                 </p>
             </div>
-            <div class="lg:py-32">
+            <div class="lg:py-28">
                 <img src="/img/l1.png" alt="Traveler model" class="h-[7rem]" />
             </div>
             <div>

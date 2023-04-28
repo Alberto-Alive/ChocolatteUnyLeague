@@ -36,9 +36,9 @@ const identity_text = ref('Communication, Promotion, Environment');
                 </div>
                 <div class="grid-card group bg-[#c9ecff] flex items-center justify-center" @mouseover=" identity_text = 'Promotion'" @mouseleave= " identity_text = '📰'">
                     <img class="grid-card-img object-cover object-center m-auto" src="/img/art/u2.gif" style="width: 350px; height: 200px;" alt="Promotion" />
-                <p class="text-2xl text-chocolate-600 font-semibold my-2">Marketing Services</p>
+                <p class="text-2xl text-chocolate-600 font-semibold my-2">Marketing Solutions</p>
                 </div>
-                <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" @mouseover=" identity_text = 'Environment'" @mouseleave= " identity_text = '📏'">
+                <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" style="filter: red(100%);" @mouseover=" identity_text = 'Engagement'" @mouseleave= " identity_text = '📃'">
                     <img class="grid-card-img  object-cover object-center m-auto" src="/img/art/u3.gif" style="width: 350px; height: 200px;" alt="Organisation" />
                     <p class="text-4xl text-chocolate-600 font-semibold my-2">Academic Engagement</p>
                 </div>

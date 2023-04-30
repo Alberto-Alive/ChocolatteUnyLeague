@@ -29,8 +29,8 @@
                             /></NuxtLink>
                         </li>
                         <li class="navbar__list">
-                            <NuxtLink to="/models" class="navbar__link" aria-label="Models page"
-                                ><Icon name="material-symbols:groups"
+                            <NuxtLink to="/downloads" class="navbar__link" aria-label="Downloads page"
+                                ><Icon name="material-symbols:download"
                             /></NuxtLink>
                         </li>
                         <li class="navbar__list">

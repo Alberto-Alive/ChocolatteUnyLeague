@@ -35,6 +35,7 @@ const _sns = ref([
                     <br/>
                     I hope you'll have a great time at uni ㊗️
                 </p>
+                <Button class="w-full lg:w-52 mt-4" name="Download" icon="uiw:download" dest="/downloads" />
             </div>
             <div class="lg:py-28">
                 <img src="/img/l1.png" alt="Traveler model" class="h-[7rem]" />

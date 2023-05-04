@@ -25,7 +25,7 @@ useHead({
                 </div>
             </div>
             <div class="p-2 lg:py-16 lg:flex-1">
-                <img src="/img/applet.png" alt="Traveler model" class="h-[25rem] m-auto" />
+                <img src="/img/apple.png" alt="Traveler model" class="h-[25rem] m-auto" />
             </div>
         </FlexCard>
         <FlexCard>
@@ -47,7 +47,7 @@ useHead({
                 </div>
             </div>
             <div class="p-2 lg:py-16 lg:flex-1">
-                <img src="/img/androidt.png" alt="Princess model" class="h-[25rem] m-auto" />
+                <img src="/img/android.png" alt="Princess model" class="h-[25rem] m-auto" />
             </div>
         </FlexCard>
         <FlexCard>
@@ -65,7 +65,7 @@ useHead({
                 </div>
             </div>
             <div class="p-2 lg:py-16 lg:flex-1">
-                <img src="/img/browny.png" alt="Loli model" class="h-[25rem] m-auto" />
+                <img src="/img/techguy.png" alt="Loli model" class="h-[25rem] m-auto" />
             </div>
         </FlexCard>
         <h1 class="text-xl my-7 text-chocolate-800 text-center font-bold">

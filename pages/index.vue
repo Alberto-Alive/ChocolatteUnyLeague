@@ -18,7 +18,7 @@ useHead({
                     friends, and have fun.
                     I have fraternities and sororities for you to join in. I will help you organise parties and find your
                     partner in 🖤
-                    I will be your memory album and will remain your forever friend so we can look back together at the good
+                    I will be your memory album and will remain your forever album so we can look back together at the good
                     times we had.
                 </p>
                 <div class="lg:mt-10">

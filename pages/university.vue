@@ -20,9 +20,6 @@ const identity_text = ref('Communication, Promotion, Environment');
                 ❥ create an attractive academic environment
                 <br />
             </p>
-            <div>
-                <img src="/img/bowl.png" alt="Traveler model" class="h-[15rem]" />
-            </div>
             </div>
             <div class="pb-2 lg:flex-1">
                 <img src="/img/album.png" alt="Traveler model" class="h-[25rem] m-auto" />

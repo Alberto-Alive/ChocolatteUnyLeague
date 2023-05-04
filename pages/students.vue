@@ -37,11 +37,8 @@ const _sns = ref([
                 </p>
                 <Button class="w-full lg:w-52 mt-4" name="Download" icon="uiw:download" dest="/downloads" />
             </div>
-            <div class="lg:py-28">
-                <img src="/img/l1.png" alt="Traveler model" class="h-[7rem]" />
-            </div>
             <div>
-                <img src="/img/cyc.png" alt="Traveler model" class="h-[15rem]" />
+                <img src="/img/studentcherry.png" alt="Traveler model" class="h-[25rem]" />
             </div>
         </div>
         <div class="lg:flex">

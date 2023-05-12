@@ -39,7 +39,7 @@
                             /></NuxtLink>
                         </li>
                         <li class="navbar__list">
-                            <NuxtLink to="/merch" class="navbar__link" aria-label="Merchandise page"
+                            <NuxtLink to="/groups" class="navbar__link" aria-label="Groups page"
                                 ><Icon name="material-symbols:groups"
                             /></NuxtLink>
                         </li>

@@ -74,8 +74,8 @@ useHead({
                 </p>
                 <li class="font-semibold">Added Choco's handsign signature to bottom right</li>
                 <p class="text-md">Improving website aesthetics.</p>
-                <li class="font-semibold">Added new merch to <code>/merch</code> endpoint</li>
-                <p class="text-md">New merch is out. Y'all better get it now</p>
+                <li class="font-semibold">Added new group to <code>/groups</code> endpoint</li>
+                <p class="text-md">New group is out. Y'all better join it now</p>
                 <li class="font-semibold">Weekly schedule update</li>
                 <p class="text-md">My routinities every Monday :).</p>
             </ul>

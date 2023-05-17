@@ -17,8 +17,8 @@ useHead({
                         <Icon 
                             name="uiw:download"
                             class="block flex-grow-0 shrink-0"
-                            width="32"
-                            height="32"
+                            width="22"
+                            height="22"
                         />
                         <span class="flex-grow flex-shrink text-left w-full">App Store</span>
                     </a>
@@ -39,8 +39,8 @@ useHead({
                         <Icon 
                             name="uiw:download"
                             class="block flex-grow-0 shrink-0"
-                            width="32"
-                            height="32"
+                            width="22"
+                            height="22"
                         />
                         <span class="flex-grow flex-shrink text-left w-full">Google Play</span>
                     </a>
@@ -61,7 +61,7 @@ useHead({
                         <br />
                         Please get in touch for technical support.
                     </p>
-                    <Button class="w-full lg:w-52" name="Contact" icon="uiw:right" dest="/contact" />
+                    <Button class="w-full lg:w-52" name="Contact" icon="uiw:right" dest="/contact" icon-class="w-6 h-6"/>
                 </div>
             </div>
             <div class="p-2 lg:py-16 lg:flex-1">

@@ -48,7 +48,7 @@ onMounted(() => {
                 </RoundFlexCard>
 
                 <div>
-                    <img src="/img/angel.png" alt="Weekly schedule" class="lg:w-[18rem] h-auto m-auto rounded-xl " />
+                    <img src="/img/rr.png" alt="Weekly schedule" class="lg:w-[18rem] h-auto m-auto rounded-xl " />
                     <p class="text-chocolate-700 text-sm mt-3">
                        Schedule for {{ todayDate }}:
                        <br />

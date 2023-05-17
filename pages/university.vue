@@ -62,7 +62,7 @@ const identity_text = ref('Communication, Promotion, Environment');
                 </div>
         </div>
         <h2 class="text-xl text-chocolate-600 font-semibold my-4">Join us now!</h2>
-        <Button class="w-full lg:w-52" name="Contact" icon="uiw:right" dest="/contact" />
+        <Button class="w-full lg:w-52" name="Contact" icon="uiw:right" dest="/contact" icon-class="w-6 h-6"/>
     </div>
 </FullScreenCard></template>
 

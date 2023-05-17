@@ -1,11 +1,31 @@
 <script setup lang="ts">
+import { useHead } from '@vueuse/head';
+import Player from '@/components/Player.vue';
+
 useHead({
-    title: 'Home',
+  title: 'Home',
 });
+
 </script>
+
+<script lang="ts">
+const songUrl = '/mp3/you.mp3'; // Replace with the actual URL of your song for the homepage
+export default {
+  components: {
+    Player,
+  },
+  data() {
+    return {
+      songUrl,
+    };
+  },
+};
+</script>
+
 
 <template>
     <FullScreenCard class="lg:flex h-auto">
+        <Player :songUrl="songUrl"/>
         <div class="hidden p-2 lg:block lg:py-16 lg:flex-1">
             <img src="/img/students.png" alt="Model" class="h-[30rem] w-auto m-auto" height="0" width="0" />
         </div>

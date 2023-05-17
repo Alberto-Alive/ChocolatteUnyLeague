@@ -29,7 +29,7 @@ onMounted(() => {
             <FullScreenCard class="lg:w-[50rem] h-auto m-auto text-center schedule">
                 <RoundFlexCard class="m-auto">
                     <div class="p-2 lg:py-16 lg:flex-1">
-                        <img src="/img/a.png" alt="Traveler model" class="h-[10rem] m-auto" />
+                        <img src="/img/sg.png" alt="Traveler model" class="h-[10rem] m-auto" />
                     </div>
                     <div class="p-2 lg:py-16 lg:flex lg:w-1/2">
                         <div class="my-4 lg:mt-22 mx-auto text-center">
@@ -48,7 +48,7 @@ onMounted(() => {
                 </RoundFlexCard>
 
                 <div>
-                    <img src="/img/rr.png" alt="Weekly schedule" class="lg:w-[18rem] h-auto m-auto rounded-xl " />
+                    <img src="/img/sb.png" alt="Weekly schedule" class="lg:w-[18rem] h-auto m-auto rounded-xl " />
                     <p class="text-chocolate-700 text-sm mt-3">
                        Schedule for {{ todayDate }}:
                        <br />

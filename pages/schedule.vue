@@ -3,25 +3,22 @@ import { ref, onMounted } from 'vue';
 import { useHead } from '@vueuse/head';
 
 useHead({
-  title: 'Live Schedule',
+    title: 'Live Schedule',
 });
 const scheduleDate = ref(null);
-const todayHey = ref("Check out today's video!");
+const scheduleText = ref("Check out today's video!");
 const todayLink = ref("https://www.youtube.com/watch?v=QtLXvh8mv3o")
-// const getLink = () => todayLink.value;
-function getLink() {
-  return "https://www.youtube.com/watch?v=QtLXvh8mv3o";
-}
+const todayDate = ref(null);
 onMounted(() => {
-  const currentDate = new Date().toLocaleDateString("en-US", {
-    month: "long",
-  day: "numeric",
-  year: "numeric"
-  });
+    const currentDate = new Date().toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric"
+    });
 
-  // Set the current date in the h1 element
-  scheduleDate.value.textContent = currentDate;
-
+    // Set the current date in the h1 element
+    scheduleDate.value.textContent = currentDate;
+    todayDate.value = currentDate;
 });
 </script>
 
@@ -37,13 +34,12 @@ onMounted(() => {
                     <div class="p-2 lg:py-16 lg:flex lg:w-1/2">
                         <div class="my-4 lg:mt-22 mx-auto text-center">
                             <h1 ref="scheduleDate" class="text-sm text-chocolate-800 text-center font-bold"></h1>
-                            <p id="scheduleText" class="text-xs text-chocolate-700 my-3 text-center">
-                               {{todayHey}}
+                            <p class="text-xs text-chocolate-700 my-3 text-center">
+                            Check out today's video!
                             </p>
-                            <!-- class="button max-w-max lg:w-28 lg:h-6 w-full sm:w-40 sm:h-6" -->
-                            <a id="scheduleLink" href="https://www.youtube.com/watch?v=QtLXvh8mv3o"
-                            class="button flex mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4"
-                                 target="_blank" rel="noreferrer">
+                            <a :href="todayLink"
+                                class="button flex mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" target="_blank"
+                                rel="noreferrer">
                                 <Icon name="uiw:link" class="block flex-grow-0 shrink-0" width="12" height="12" />
                                 <span class="flex-grow flex-shrink text-left text-xs md:text-xs p-2">View</span>
                             </a>
@@ -52,17 +48,22 @@ onMounted(() => {
                 </RoundFlexCard>
 
                 <div>
-                    <img src="/img/angel.png" alt="Weekly schedule"
-                        class="lg:w-[18rem] h-auto m-auto rounded-xl " />
+                    <img src="/img/angel.png" alt="Weekly schedule" class="lg:w-[18rem] h-auto m-auto rounded-xl " />
                     <p class="text-chocolate-700 text-sm mt-3">
-                        Schedule for March 12, 2023 - March 18, 2023
+                       Schedule for {{ todayDate }}:
+                       <br />
+                       🤎 @2pm Party on the campus meadow 
+                       <br />
+                        🗨️ @4:30 ChitChat gathering in student central
                         <br />
-                        Last updated on <code class="text-[#ff93b5] font-bold">Wed Mar 15 2023 21:54:11 GMT+7</code>
+                        🃏 @7:00 Social event for card games in the main halls
+                        <br />
+                        Last updated on <code class="text-[#ff93b5] font-bold">{{ todayDate }} 10:54:11 GMT+1</code>
                     </p>
                     <a href="https://www.youtube.com/@ChocoLatteCh" target="_blank" rel="noreferrer nofollow me"
                         class="button w-full lg:w-96 my-3">
                         <Icon name="mdi:youtube" class="block flex-grow-0 shrink-0" width="32" height="32" />
-                        <span class="flex-grow flex-shrink text-left w-full">Watch stream on YouTube</span>
+                        <span class="flex-grow flex-shrink text-left w-full">Watch it live on YouTube</span>
                     </a>
                 </div>
             </FullScreenCard>

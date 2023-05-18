@@ -7,7 +7,7 @@ useHead({
 });
 const scheduleDate = ref(null);
 const scheduleText = ref("Check out today's video!");
-const todayLink = ref("https://www.youtube.com/watch?v=QtLXvh8mv3o")
+const todayLink = ref("https://www.youtube.com/watch?v=mBAYmz6dfqw")
 const todayDate = ref(null);
 onMounted(() => {
     const currentDate = new Date().toLocaleDateString("en-US", {
@@ -60,7 +60,7 @@ onMounted(() => {
                         <br />
                         Last updated on <code class="text-[#ff93b5] font-bold">{{ todayDate }} 10:54:11 GMT+1</code>
                     </p>
-                    <a href="https://www.youtube.com/@ChocoLatteCh" target="_blank" rel="noreferrer nofollow me"
+                    <a href="https://www.youtube.com/watch?v=xTC_aAFEuRM" target="_blank" rel="noreferrer nofollow me"
                         class="button w-full lg:w-96 my-3">
                         <Icon name="mdi:youtube" class="block flex-grow-0 shrink-0" width="32" height="32" />
                         <span class="flex-grow flex-shrink text-left w-full">Watch it live on YouTube</span>

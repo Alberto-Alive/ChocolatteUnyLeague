@@ -31,7 +31,7 @@ const _sns = ref([
                         >happy link?!?</a
                     >
                     <br /><br />
-                    Now is time for you to join a fraternity <span class="italic">/ or /</span> sorority.
+                    Now is time for you to join a <a href="/groups" class="underline" style="color:#5b2244;">fraternity</a><span class="italic"> / or / </span> <a href="/groups" class="underline" style="color:#5b2244;">sorority.</a>
                     <br/>
                     I hope you'll have a great time at uni ㊗️
                 </p>

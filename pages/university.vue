@@ -25,7 +25,7 @@ export default {
         <div class="p-2 lg:py-9">
             <h1 class="text-3xl text-chocolate-800 font-bold">For Universities</h1>
             <div class="flex flex-wrap">
-                <div class="p-2 lg:py-9 lg:w-1/2">
+                <div class="p-2 lg:py-3 lg:w-1/2">
                     <h2 class="text-lg text-chocolate-600 font-semibold my-2">What's in for your organisation:</h2>
                     <p class="text-base text-chocolate-700">
                         ❥ keep in touch with your students
@@ -35,6 +35,7 @@ export default {
                         ❥ create an attractive academic environment
                         <br />
                     </p>
+                    <br/>
                     <h2 class="text-lg text-chocolate-600 font-semibold my-2">..a little more detail:</h2>
                     <p class="text-base text-chocolate-700">
                         <b>Elevate Your Image:</b> <i>Our app offers unique and innovative features that enhance your university's

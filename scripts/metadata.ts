@@ -1,7 +1,7 @@
 export const _initHead = () => {
     useHead({
         titleTemplate: titleChunk => {
-            return titleChunk ? `${titleChunk} | Choco Latte VTuber` : `Choco Latte VTuber`;
+            return titleChunk ? `${titleChunk} | Unyleague` : `Unyleague`;
         },
         htmlAttrs: {
             lang: 'en',

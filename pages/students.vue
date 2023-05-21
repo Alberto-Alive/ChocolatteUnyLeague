@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Player from '@/components/Player.vue';
 useHead({
     title: 'Students',
 });
@@ -14,24 +15,45 @@ const _sns = ref([
     // { name: 'Discord server', icon: 'ic:baseline-discord', href: 'https://discord.gg/cVmy5bTaTs' },
 ]);
 </script>
+<script lang="ts">
+const songUrl = '/mp3/st2.mp3';
+export default {
+  components: {
+    Player,
+  },
+  data() {
+    return {
+      songUrl,
+    };
+  },
+};
+</script>
 
 <template>
     <FullScreenCard class="h-auto">
+        <Player :songUrl="songUrl"/>
         <div class="lg:flex">
             <div class="p-2 lg:py-9 lg:flex-1">
                 <h1 class="text-3xl text-chocolate-700 font-bold">For Students</h1>
-                <h2 class="text-lg text-chocolate-600 font-bold my-2">Everything in General</h2>
+                <h2 class="text-lg text-chocolate-600 font-bold my-2">Nice to meet you all ‹𝟹</h2>
                 <p class="text-base text-chocolate-700">
                     I'm so happy you've made it to university 🎈
+                    <br />
+                    Lots of incredible experiences are eagerly awaiting you, so make a 
+                    <a href="https://www.youtube.com/watch?v=GYksl5cHFe4" class="underline" style="color:#5b2244;" target="_blank" rel="noreferrer"
+                        >bucket list</a
+                    > and check off as many as you can!
                     <br /><br />
-                    You'll notice I'm only good at three things: {{ identity_text }}
+                    I'll be there to help you with three things: {{ identity_text }}
                     <br />
                     Let's Get You in the Mood
                     <a href="https://youtu.be/2tKHWz4WlnM?t=26" class="underline" style="color:#5b2244;" target="_blank" rel="noreferrer"
                         >happy link?!?</a
                     >
                     <br /><br />
-                    Now is time for you to join a <a href="/groups" class="underline" style="color:#5b2244;">fraternity</a><span class="italic"> / or / </span> <a href="/groups" class="underline" style="color:#5b2244;">sorority.</a>
+                    Now is time for you to  <span>
+                        <Button class="mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" name="join" icon="uiw:uiw" dest="/groups" icon-class="w-2 h-2"/>
+                    </span> a fraternity<span class="italic"> / or / </span>sorority.
                     <br/>
                     I hope you'll have a great time at uni ㊗️
                 </p>

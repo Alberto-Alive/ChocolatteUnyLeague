@@ -1,11 +1,26 @@
 <script setup lang="ts">
+import Player from '@/components/Player.vue';
 useHead({
     title: 'Downloads',
 });
 </script>
+<script lang="ts">
+const songUrl = '/mp3/s5.mp3';
+export default {
+  components: {
+    Player,
+  },
+  data() {
+    return {
+      songUrl,
+    };
+  },
+};
+</script>
 
 <template>
     <FullScreenCard class="h-auto">
+        <Player :songUrl="songUrl"/>
         <FlexCard>
             <div class="p-2 lg:py-16 lg:flex lg:w-1/2">
                 <div class="my-4 lg:mt-28 mx-auto text-center">

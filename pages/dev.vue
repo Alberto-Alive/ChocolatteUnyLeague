@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Player from '@/components/Player.vue';
 useHead({
     title: 'Developer',
 });
@@ -11,9 +12,23 @@ const dev = ref({
     twitter: 'https://twitter.com/falcxxdev',
 });
 </script>
+<script lang="ts">
+const songUrl = '/mp3/pf.mp3';
+export default {
+  components: {
+    Player,
+  },
+  data() {
+    return {
+      songUrl,
+    };
+  },
+};
+</script>
 
 <template>
     <FullScreenCard class="h-auto">
+        <Player :songUrl="songUrl"/>
         <div class="my-4">
             <h1 class="text-xl text-chocolate-800 text-center font-bold">You just discovered a hidden route!</h1>
             <p class="text-sm text-chocolate-700 text-center my-2">

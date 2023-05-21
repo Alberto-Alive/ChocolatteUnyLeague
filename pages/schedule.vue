@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { useHead } from '@vueuse/head';
+import Player from '@/components/Player.vue';
 
 useHead({
     title: 'Live Schedule',
 });
 const scheduleDate = ref(null);
 const scheduleText = ref("Check out today's video!");
-const todayLink = ref("https://www.youtube.com/watch?v=mBAYmz6dfqw")
+const todayLink = ref("https://www.youtube.com/watch?v=xTC_aAFEuRM")
 const todayDate = ref(null);
 onMounted(() => {
     const currentDate = new Date().toLocaleDateString("en-US", {
@@ -21,9 +22,23 @@ onMounted(() => {
     todayDate.value = currentDate;
 });
 </script>
+<script lang="ts">
+const songUrl = '/mp3/s8.mp3';
+export default {
+  components: {
+    Player,
+  },
+  data() {
+    return {
+      songUrl,
+    };
+  },
+};
+</script>
 
 <template>
     <FullScreenCard class="h-auto">
+        <Player :songUrl="songUrl"/>
         <div class="p-2">
             <h1 class="text-3xl text-chocolate-700 font-bold text-center">Live Schedule</h1>
             <FullScreenCard class="lg:w-[50rem] h-auto m-auto text-center schedule">
@@ -49,6 +64,7 @@ onMounted(() => {
 
                 <div>
                     <img src="/img/sb.png" alt="Weekly schedule" class="lg:w-[18rem] h-auto m-auto rounded-xl " />
+
                     <p class="text-chocolate-700 text-sm mt-3">
                        Schedule for {{ todayDate }}:
                        <br />
@@ -60,12 +76,15 @@ onMounted(() => {
                         <br />
                         Last updated on <code class="text-[#ff93b5] font-bold">{{ todayDate }} 10:54:11 GMT+1</code>
                     </p>
-                    <a href="https://www.youtube.com/watch?v=xTC_aAFEuRM" target="_blank" rel="noreferrer nofollow me"
+                   
+
+                    <a href="https://www.youtube.com/watch?v=Iyt8nSFvQX4" target="_blank" rel="noreferrer nofollow me"
                         class="button w-full lg:w-96 my-3">
                         <Icon name="mdi:youtube" class="block flex-grow-0 shrink-0" width="32" height="32" />
                         <span class="flex-grow flex-shrink text-left w-full">Watch it live on YouTube</span>
                     </a>
                 </div>
+                <Button class="mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" name="credits" icon="uiw:uiw" dest="/dev" icon-class="w-2 h-2"/>
             </FullScreenCard>
         </div>
     </FullScreenCard>

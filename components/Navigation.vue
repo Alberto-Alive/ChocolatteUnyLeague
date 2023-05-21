@@ -23,11 +23,6 @@
                             /></NuxtLink>
                         </li>
                         <li class="navbar__list">
-                            <NuxtLink to="/groups" class="navbar__link" aria-label="Groups page"
-                                ><Icon name="material-symbols:groups"
-                            /></NuxtLink>
-                        </li>
-                        <li class="navbar__list">
                             <NuxtLink to="/university" class="navbar__link" aria-label="University page"
                                 ><Icon name="mdi:school"
                             /></NuxtLink>

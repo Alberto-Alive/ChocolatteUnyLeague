@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Player from '@/components/Player.vue';
 useHead({
     title: 'Groups',
 });
@@ -16,14 +17,29 @@ const groups = [
         desc: 'Sororities are more than just social clubs. They\'re a community of like-minded girls who support each other through thick and thin. Whether you\'re looking for a place to make lifelong friends, get involved on campus, or just have some fun, joining a sorority is the perfect way to make the most of your college experience.',
         img: '/img/sr.png',
         icon: 'woman',
-        url: 'https://youtu.be/UqG0LBHPTBA?t=3',
+        url: 'https://www.youtube.com/watch?v=mBAYmz6dfqw',
     }
    
 ];
 </script>
+<script lang="ts">
+const songUrl = '/mp3/gr1.mp3';
+// const songUrl = '/mp3/s10.mp3';
+export default {
+  components: {
+    Player,
+  },
+  data() {
+    return {
+      songUrl,
+    };
+  },
+};
+</script>
 
 <template>
     <FullScreenCard class="h-auto">
+        <Player :songUrl="songUrl"/>
         <FlexCard v-for="entity in groups">
             <div class="p-2 lg:py-24 lg:flex-1">
                 <img :src="entity.img" alt="entity.name" class="h-[16rem] m-auto rounded-xl" />

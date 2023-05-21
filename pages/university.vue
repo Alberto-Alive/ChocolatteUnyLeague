@@ -1,12 +1,27 @@
 <script setup lang="ts">
+import Player from '@/components/Player.vue';
 useHead({
     title: 'Universities',
 });
 const identity_text = ref('Communication, Promotion, Environment');
 </script>
+<script lang="ts">
+const songUrl = '/mp3/un.mp3';
+export default {
+  components: {
+    Player,
+  },
+  data() {
+    return {
+      songUrl,
+    };
+  },
+};
+</script>
 
 <template>
     <FullScreenCard class="h-auto">
+        <Player :songUrl="songUrl"/>
         <div class="p-2 lg:py-9">
             <h1 class="text-3xl text-chocolate-800 font-bold">For Universities</h1>
             <div class="flex flex-wrap">

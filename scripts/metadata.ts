@@ -50,7 +50,7 @@ export const _initHead = () => {
             { name: 'twitter:creator', content: '@falcxxdev' },
         ],
         link: [
-            { rel: 'icon', href: '/svgs/icon.svg', type: 'image/svg+xml' },
+            { rel: 'icon', href: '/svgs/i4.png', type: 'image/svg+xml' },
             { rel: 'canonical', href: 'https://chocolatte.falcxxdev.cyou' },
             { rel: 'preload', href: '/img/signature.webp', as: 'image' },
             { rel: 'preload', href: '/img/neko_half.webp', as: 'image' },

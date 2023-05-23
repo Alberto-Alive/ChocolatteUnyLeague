@@ -22,7 +22,7 @@ export default {
         '/contact': '/mp3/ct1.mp3',
         '/schedule': '/mp3/s8.mp3',
         '/groups': '/mp3/gr1.mp3',
-        '/dev': '/mp3/pf.mp3',
+        '/credits': '/mp3/pf.mp3',
       },
       isPlayedOnce: false,
     };

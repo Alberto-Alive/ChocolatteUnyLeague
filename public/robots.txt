@@ -1,5 +1,5 @@
 User-Agent: *
-Disallow: /dev
+Disallow: /credits
 Disallow: /logs
 
 Sitemap: https://chocolatte.falcxxdev.cyou/page-sitemap.xml

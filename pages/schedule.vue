@@ -65,7 +65,7 @@ onMounted(() => {
                     </a>
                 </div>
                 <Button class="mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" name="credits" icon="uiw:uiw"
-                    dest="/dev" icon-class="w-2 h-2" />
+                    dest="/credits" icon-class="w-2 h-2" />
             </FullScreenCard>
         </div>
     </FullScreenCard>

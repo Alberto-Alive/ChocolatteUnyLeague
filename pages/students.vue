@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Player from '@/components/Player.vue';
 useHead({
     title: 'Students',
 });
@@ -15,23 +14,9 @@ const _sns = ref([
     // { name: 'Discord server', icon: 'ic:baseline-discord', href: 'https://discord.gg/cVmy5bTaTs' },
 ]);
 </script>
-<script lang="ts">
-const songUrl = '/mp3/st2.mp3';
-export default {
-  components: {
-    Player,
-  },
-  data() {
-    return {
-      songUrl,
-    };
-  },
-};
-</script>
 
 <template>
     <FullScreenCard class="h-auto">
-        <Player :songUrl="songUrl"/>
         <div class="lg:flex">
             <div class="p-2 lg:py-9 lg:flex-1">
                 <h1 class="text-3xl text-chocolate-700 font-bold">For Students</h1>

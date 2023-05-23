@@ -1,41 +1,63 @@
 <template>
-  <audio ref="audio" :src="songUrl"></audio>
+  <audio ref="audio"></audio>
 </template>
 
 <script>
 export default {
-  props: {
-    songUrl: {
-      type: String,
-      required: true,
-    },
-  },
   mounted() {
-    this.playAudio();
-
-    // Add event listener for visibilitychange
+    this.audioElement = this.$refs.audio;
     document.addEventListener('visibilitychange', this.handleVisibilityChange);
+    this.audioElement.addEventListener('ended', this.handleSongEnd);
   },
   beforeUnmount() {
-    // Remove event listener when the component is unmounted
     document.removeEventListener('visibilitychange', this.handleVisibilityChange);
-
-    // Pause the audio
     this.pauseAudio();
   },
+  data() {
+    return {
+      songUrls: {
+        '/students': '/mp3/st2.mp3',
+        '/university': '/mp3/un.mp3',
+        '/downloads': '/mp3/s5.mp3',
+        '/contact': '/mp3/ct1.mp3',
+        '/schedule': '/mp3/s8.mp3',
+        '/groups': '/mp3/gr1.mp3',
+        '/dev': '/mp3/pf.mp3',
+      },
+      isPlayedOnce: false,
+    };
+  },
+  watch: {
+    $route(newRoute) {
+      this.isPlayedOnce = false;
+      this.handleRouteChange(newRoute.path);
+    }
+  },
   methods: {
+    handleSongEnd() {
+    this.isPlayedOnce = true;
+  },
+    handleRouteChange(newPath) {
+        this.audioElement.src = this.songUrls[newPath];
+        this.playAudio();
+    },
     playAudio() {
-      this.$refs.audio.play();
+      if (this.audioElement) {
+        this.audioElement.play();
+      }
     },
     pauseAudio() {
-      this.$refs.audio.pause();
+      if (this.audioElement) {
+        this.audioElement.pause();
+      }
     },
     handleVisibilityChange() {
-      // Check if the document is hidden
       if (document.hidden) {
         this.pauseAudio();
       } else {
-        this.playAudio();
+        if (this.audioElement && !this.isPlayedOnce) {
+        this.audioElement.play();
+      }
       }
     },
   },

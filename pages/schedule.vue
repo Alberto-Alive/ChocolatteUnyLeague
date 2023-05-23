@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { useHead } from '@vueuse/head';
-import Player from '@/components/Player.vue';
 
 useHead({
     title: 'Live Schedule',
@@ -22,23 +21,9 @@ onMounted(() => {
     todayDate.value = currentDate;
 });
 </script>
-<script lang="ts">
-const songUrl = '/mp3/s8.mp3';
-export default {
-  components: {
-    Player,
-  },
-  data() {
-    return {
-      songUrl,
-    };
-  },
-};
-</script>
 
 <template>
     <FullScreenCard class="h-auto">
-        <Player :songUrl="songUrl"/>
         <div class="p-2">
             <h1 class="text-3xl text-chocolate-700 font-bold text-center">Live Schedule</h1>
             <FullScreenCard class="lg:w-[50rem] h-auto m-auto text-center schedule">

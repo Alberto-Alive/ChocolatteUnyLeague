@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Player from '@/components/Player.vue';
 useHead({
     title: 'Contact',
 });
@@ -8,23 +7,9 @@ const provider = ref([
     { details: '+44 7780 790155', url: 'whatsapp://send?phone=+447780790155', icon: 'smartphone', show: false, cover: 'Whatsapp us @' },
 ]);
 </script>
-<script lang="ts">
-const songUrl = '/mp3/ct1.mp3';
-export default {
-  components: {
-    Player,
-  },
-  data() {
-    return {
-      songUrl,
-    };
-  },
-};
-</script>
 
 <template>
     <FullScreenCard class="h-auto">
-        <Player :songUrl="songUrl"/>
         <div class="flex flex-wrap">
             <div class="p-2 lg:py-9 lg:w-1/2">
                 <h1 class="text-3xl text-chocolate-800 font-bold">Contact</h1>

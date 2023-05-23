@@ -24,7 +24,6 @@ const groups = [
 </script>
 <script lang="ts">
 const songUrl = '/mp3/gr1.mp3';
-// const songUrl = '/mp3/s10.mp3';
 export default {
   components: {
     Player,

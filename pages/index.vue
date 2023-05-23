@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head';
 useHead({
-  title: 'Home',
+    title: 'Home',
 });
 </script>
 
 <template>
     <FullScreenCard class="lg:flex h-auto">
         <div class="hidden p-2 lg:block lg:py-16 lg:flex-1">
-            <img src="/img/students.png" alt="Model" class="h-[30rem] w-auto m-auto" height="0" width="0" />
+            <img src="/img/students.png" alt="Model" class="h-[30rem] w-auto m-auto" />
         </div>
         <div class="p-2 lg:py-16 lg:flex lg:w-1/2">
             <div class="my-4 lg:mt-28">
@@ -25,14 +25,14 @@ useHead({
                 <div class="lg:mt-10">
                     <h1 class="text-3xl text-chocolate-800 text-center font-bold">..a social platform exclusive for
                         students:</h1>
-                    <h2 class="text-center"><span class="text-[#ff93b5] text-xl">✎﹏</span> <span class="text-xl text-chocolate-800 italic">ORGANISE PARTIES</span></h2>
-                    <h2 class="text-center"><span class="text-[#ff93b5] text-xl">✎﹏</span> <span class="text-xl text-chocolate-800 italic">SHARE PICTURES</span></h2>
-                    <h2 class="text-center"><span class="text-[#ff93b5] text-xl">✎﹏</span> <span class="text-xl text-chocolate-800 italic">ENJOY DATES</span></h2>
+                    <h2 class="text-center"><span class="text-[#ff93b5] text-xl">✎﹏</span> <span
+                            class="text-xl text-chocolate-800 italic">ORGANISE PARTIES</span></h2>
+                    <h2 class="text-center"><span class="text-[#ff93b5] text-xl">✎﹏</span> <span
+                            class="text-xl text-chocolate-800 italic">SHARE PICTURES</span></h2>
+                    <h2 class="text-center"><span class="text-[#ff93b5] text-xl">✎﹏</span> <span
+                            class="text-xl text-chocolate-800 italic">ENJOY DATES</span></h2>
                 </div>
             </div>
-
         </div>
-        <div class="lg:hidden p-2 block lg:py-16 lg:flex-1">
-            <img src="/img/neko_half.webp" alt="Model" class="w-auto m-auto" height="0" width="0" />
-        </div>
-</FullScreenCard></template>
+    </FullScreenCard>
+</template>

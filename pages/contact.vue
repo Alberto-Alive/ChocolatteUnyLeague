@@ -41,5 +41,3 @@ const provider = ref([
         <p class="text-lg text-chocolate-600 font-semibold my-2">We'll reply within 3-working days. Thanks for contacting us!</p>
     </FullScreenCard>
 </template>
-
-<style></style>

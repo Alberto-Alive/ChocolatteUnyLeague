@@ -1,14 +1,11 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
-import { useHead } from '@vueuse/head';
-
 useHead({
-    title: 'Live Schedule',
+    title: 'Schedule',
 });
-const scheduleDate = ref(null);
+const scheduleDate = ref('');
 const scheduleText = ref("Check out today's video!");
 const todayLink = ref("https://www.youtube.com/watch?v=xTC_aAFEuRM")
-const todayDate = ref(null);
+const todayDate = ref('');
 onMounted(() => {
     const currentDate = new Date().toLocaleDateString("en-US", {
         month: "long",
@@ -16,7 +13,6 @@ onMounted(() => {
         year: "numeric"
     });
 
-    // Set the current date in the h1 element
     scheduleDate.value.textContent = currentDate;
     todayDate.value = currentDate;
 });
@@ -35,11 +31,10 @@ onMounted(() => {
                         <div class="my-4 lg:mt-22 mx-auto text-center">
                             <h1 ref="scheduleDate" class="text-sm text-chocolate-800 text-center font-bold"></h1>
                             <p class="text-xs text-chocolate-700 my-3 text-center">
-                            Check out today's video!
+                                Check out today's video!
                             </p>
-                            <a :href="todayLink"
-                                class="button flex mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" target="_blank"
-                                rel="noreferrer">
+                            <a :href="todayLink" class="button flex mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4"
+                                target="_blank" rel="noreferrer">
                                 <Icon name="uiw:link" class="block flex-grow-0 shrink-0" width="12" height="12" />
                                 <span class="flex-grow flex-shrink text-left text-xs md:text-xs p-2">View</span>
                             </a>
@@ -48,20 +43,20 @@ onMounted(() => {
                 </RoundFlexCard>
 
                 <div>
-                    <img src="/img/sb.png" alt="Weekly schedule" class="lg:w-[18rem] h-auto m-auto rounded-xl " />
+                    <img src="/img/sb.png" alt="Weekly schedule" class="lg:w-[18rem] h-auto m-auto rounded-xl" />
 
                     <p class="text-chocolate-700 text-sm mt-3">
-                       Schedule for {{ todayDate }}:
-                       <br />
-                       🤎 @2pm Party on the campus meadow 
-                       <br />
+                        Schedule for {{ todayDate }}:
+                        <br />
+                        🤎 @2pm Party on the campus meadow
+                        <br />
                         🗨️ @4:30 ChitChat gathering in student central
                         <br />
                         🃏 @7:00 Social event for card games in the main halls
                         <br />
                         Last updated on <code class="text-[#ff93b5] font-bold">{{ todayDate }} 10:54:11 GMT+1</code>
                     </p>
-                   
+
 
                     <a href="https://www.youtube.com/watch?v=Iyt8nSFvQX4" target="_blank" rel="noreferrer nofollow me"
                         class="button w-full lg:w-96 my-3">
@@ -69,7 +64,8 @@ onMounted(() => {
                         <span class="flex-grow flex-shrink text-left w-full">Watch it live on YouTube</span>
                     </a>
                 </div>
-                <Button class="mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" name="credits" icon="uiw:uiw" dest="/dev" icon-class="w-2 h-2"/>
+                <Button class="mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" name="credits" icon="uiw:uiw"
+                    dest="/dev" icon-class="w-2 h-2" />
             </FullScreenCard>
         </div>
     </FullScreenCard>

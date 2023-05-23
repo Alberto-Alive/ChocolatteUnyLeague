@@ -20,20 +20,25 @@ const identity_text = ref('Communication, Promotion, Environment');
                         ❥ create an attractive academic environment
                         <br />
                     </p>
-                    <br/>
+                    <br />
                     <h2 class="text-lg text-chocolate-600 font-semibold my-2">..a little more detail:</h2>
                     <p class="text-base text-chocolate-700">
-                        <b>Elevate Your Image:</b> <i>Our app offers unique and innovative features that enhance your university's
-                        reputation and make it stand out from the competition.</i>
+                        <b>Elevate Your Image:</b> <i>Our app offers unique and innovative features that enhance your
+                            university's
+                            reputation and make it stand out from the competition.</i>
                         <br />
-                        <b>Attract More Students:</b> <i>With our app, you'll create a thriving community that fosters positive
-                        interactions between students, and creates a welcoming environment that new students can't resist.</i>
+                        <b>Attract More Students:</b> <i>With our app, you'll create a thriving community that fosters
+                            positive
+                            interactions between students, and creates a welcoming environment that new students can't
+                            resist.</i>
                         <br />
-                        <b>Improve Student Life:</b> <i>Our app provides a one-stop-shop for students to connect with each other,
-                        access vital resources, and stay up-to-date with campus events, clubs, and more.</i>
+                        <b>Improve Student Life:</b> <i>Our app provides a one-stop-shop for students to connect with each
+                            other,
+                            access vital resources, and stay up-to-date with campus events, clubs, and more.</i>
                         <br />
-                        <b>Join the Movement:</b> <i>Don't get left behind! Adopt our app today and take your university to the next
-                        level of student engagement and satisfaction.</i>
+                        <b>Join the Movement:</b> <i>Don't get left behind! Adopt our app today and take your university to
+                            the next
+                            level of student engagement and satisfaction.</i>
                         <br />
                     </p>
                 </div>
@@ -55,16 +60,15 @@ const identity_text = ref('Communication, Promotion, Environment');
                         style="width: 350px; height: 200px;" alt="Promotion" />
                     <p class="text-2xl text-chocolate-600 font-semibold my-2">Marketing Solutions</p>
                 </div>
-                <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" style="filter: red(100%);"
+                <div class="grid-card group bg-[#edcaf4] flex items-center justify-center"
                     @mouseover=" identity_text = 'Engagement'" @mouseleave=" identity_text = '📃'">
                     <img class="grid-card-img  object-cover object-center m-auto" src="/img/art/u3.gif"
                         style="width: 350px; height: 200px;" alt="Organisation" />
                     <p class="text-4xl text-chocolate-600 font-semibold my-2">Academic Engagement</p>
                 </div>
+            </div>
+            <h2 class="text-xl text-chocolate-600 font-semibold my-4">Join us now!</h2>
+            <Button class="w-full lg:w-52" name="Contact" icon="uiw:right" dest="/contact" icon-class="w-6 h-6" />
         </div>
-        <h2 class="text-xl text-chocolate-600 font-semibold my-4">Join us now!</h2>
-        <Button class="w-full lg:w-52" name="Contact" icon="uiw:right" dest="/contact" icon-class="w-6 h-6"/>
-    </div>
-</FullScreenCard></template>
-
-<style scoped></style>
+    </FullScreenCard>
+</template>

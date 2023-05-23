@@ -7,11 +7,6 @@ const _sns = ref([
     { name: 'Facebook', icon: 'mdi:facebook', url: 'https://www.facebook.com/ChocoLatte.Channel' },
     { name: 'Linkedin', icon: 'mdi:linkedin', url: 'https://www.facebook.com/ChocoLatte.Channel' },
     { name: 'Instagram', icon: 'mdi:instagram', url: 'https://www.instagram.com/chocolattech_' },
-    // { name: 'YouTube', icon: 'mdi:youtube', url: 'https://www.youtube.com/channel/UCOrmSFsEeZsMd464vcBTILg' },
-    // { name: 'Twitter', icon: 'mdi:twitter', url: 'https://twitter.com/ChocoLatteCh_' },
-    // { name: 'TikTok', icon: 'ic:baseline-tiktok', url: 'https://www.tiktok.com/@chocolattech_' },
-    // { name: 'Twitch', icon: 'mdi:twitch', href: 'https://www.twitch.tv/chocolattech' },
-    // { name: 'Discord server', icon: 'ic:baseline-discord', href: 'https://discord.gg/cVmy5bTaTs' },
 ]);
 </script>
 
@@ -24,28 +19,28 @@ const _sns = ref([
                 <p class="text-base text-chocolate-700">
                     I'm so happy you've made it to university 🎈
                     <br />
-                    Lots of incredible experiences are eagerly awaiting you, so make a 
-                    <a href="https://www.youtube.com/watch?v=GYksl5cHFe4" class="underline" style="color:#5b2244;" target="_blank" rel="noreferrer"
-                        >bucket list</a
-                    > and check off as many as you can!
+                    Lots of incredible experiences are eagerly awaiting you, so make a
+                    <a href="https://www.youtube.com/watch?v=GYksl5cHFe4" class="underline" style="color:#5b2244;"
+                        target="_blank" rel="noreferrer">bucket list</a> and check off as many as you can!
                     <br /><br />
                     I'll be there to help you with three things: {{ identity_text }}
                     <br />
                     Let's Get You in the Mood
-                    <a href="https://youtu.be/2tKHWz4WlnM?t=26" class="underline" style="color:#5b2244;" target="_blank" rel="noreferrer"
-                        >happy link?!?</a
-                    >
+                    <a href="https://youtu.be/2tKHWz4WlnM?t=26" class="underline" style="color:#5b2244;" target="_blank"
+                        rel="noreferrer">happy link?!?</a>
                     <br /><br />
-                    Now is time for you to  <span>
-                        <Button class="mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" name="join" icon="uiw:uiw" dest="/groups" icon-class="w-2 h-2"/>
+                    Now is time for you to <span>
+                        <Button class="mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" name="join" icon="uiw:uiw"
+                            dest="/groups" icon-class="w-2 h-2" />
                     </span> a fraternity<span class="italic"> / or / </span>sorority.
-                    <br/>
+                    <br />
                     I hope you'll have a great time at uni ㊗️
                 </p>
-                <Button class="w-full lg:w-52 mt-4" name="Download" icon="uiw:download" dest="/downloads" icon-class="w-6 h-6"/>
+                <Button class="w-full lg:w-52 mt-4" name="Download" icon="uiw:download" dest="/downloads"
+                    icon-class="w-6 h-6" />
             </div>
             <div>
-                <img src="/img/studentstree.png" alt="Traveler model" class="h-[25rem]"/>
+                <img src="/img/studentstree.png" alt="Students tree" class="h-[25rem]"/>
             </div>
         </div>
         <div class="lg:flex">
@@ -82,29 +77,30 @@ const _sns = ref([
             </div>
         </div>
         <div class="grid grid-cols-1 gap-2 md:grid-cols-3 mt-4">
-                <div class="grid-card group flex items-center justify-center"  @mouseover=" identity_text = 'Memories'" @mouseleave= " identity_text = '📷'">
-                    <img class="grid-card-img  object-cover  m-auto" src="/img/art/selfie.gif" style="width: 350px; height: 200px;" alt="Memories" />
-                    <p class="text-lg text-chocolate-600 font-semibold my-2">Memories</p>
-                </div>
-                <div class="grid-card group bg-[#c9ecff] flex items-center justify-center" @mouseover=" identity_text = 'Parties'" @mouseleave= " identity_text = '🎉'">
-                    <img class="grid-card-img object-cover object-center m-auto" src="/img/art/party.gif" style="width: 350px; height: 200px;" alt="Parties" />
-                <p class="text-2xl text-chocolate-600 font-semibold my-2">Parties</p>
-                </div>
-                <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" @mouseover=" identity_text = 'Dates'" @mouseleave= " identity_text = '💓'">
-                    <img class="grid-card-img  object-cover object-center m-auto" src="/img/art/love.gif" style="width: 350px; height: 200px;" alt="Dates" />
-                    <p class="text-4xl text-chocolate-600 font-semibold my-2">Dates</p>
-                </div>
+            <div class="grid-card group flex items-center justify-center" @mouseover=" identity_text = 'Memories'"
+                @mouseleave=" identity_text = '📷'">
+                <img class="grid-card-img  object-cover  m-auto" src="/img/art/selfie.gif"
+                    style="width: 350px; height: 200px;" alt="Memories" />
+                <p class="text-lg text-chocolate-600 font-semibold my-2">Memories</p>
             </div>
+            <div class="grid-card group bg-[#c9ecff] flex items-center justify-center"
+                @mouseover=" identity_text = 'Parties'" @mouseleave=" identity_text = '🎉'">
+                <img class="grid-card-img object-cover object-center m-auto" src="/img/art/party.gif"
+                    style="width: 350px; height: 200px;" alt="Parties" />
+                <p class="text-2xl text-chocolate-600 font-semibold my-2">Parties</p>
+            </div>
+            <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" @mouseover=" identity_text = 'Dates'"
+                @mouseleave=" identity_text = '💓'">
+                <img class="grid-card-img  object-cover object-center m-auto" src="/img/art/love.gif"
+                    style="width: 350px; height: 200px;" alt="Dates" />
+                <p class="text-4xl text-chocolate-600 font-semibold my-2">Dates</p>
+            </div>
+        </div>
         <div class="p-2">
             <h1 class="text-3xl text-chocolate-800 font-bold">Visit me :)</h1>
             <div class="lg:grid grid-cols-1 lg:gap-2 md:grid-cols-3 mt-4">
-                <a
-                    v-for="sns in _sns"
-                    :href="sns.url"
-                    target="_blank"
-                    rel="noreferrer nofollow me"
-                    class="button w-full my-1"
-                >
+                <a v-for="sns in _sns" :href="sns.url" target="_blank" rel="noreferrer nofollow me"
+                    class="button w-full my-1">
                     <Icon :name="sns.icon" class="block flex-grow-0 shrink-0" width="32" height="32" />
                     <span class="flex-grow flex-shrink text-left w-full">{{ sns.name }}</span>
                 </a>
@@ -112,5 +108,3 @@ const _sns = ref([
         </div>
     </FullScreenCard>
 </template>
-
-<style></style>

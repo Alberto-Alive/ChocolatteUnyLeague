@@ -5,21 +5,21 @@ _greet();
 useJsonld((): any => ({
     '@context': 'https://schema.org/',
     '@type': 'Person',
-    name: 'Choco Latte',
-    url: 'https://chocolatte.falcxxdev.cyou',
-    image: 'https://chocolatte.falcxxdev.cyou/img/neko_full.webp',
+    name: 'Unyleague',
+    url: 'https://unyleague.com',
+    image: 'https://unyleague.com/img/students.png',
     sameAs: [
-        'https://twitter.com/ChocoLatte_',
-        'https://instagram.com/chocolatte_',
-        'https://youtube.com/@ChocoLatteCh',
-        'https://www.facebook.com/ChocoLatte.Channel',
-        'https://chocolatte.falcxxdev.cyou',
+        'https://twitter.com/unyleague',
+        'https://instagram.com/unyleague',
+        'https://youtube.com/@unyleague',
+        'https://www.facebook.com/unyleague.Channel',
+        'https://unyleague.com',
     ],
-    jobTitle: 'Virtual YouTuber',
-    gender: 'female',
+    jobTitle: 'Student Social Media',
+    gender: 'any',
     worksFor: {
         '@type': 'Organization',
-        name: 'Tsukimi Project',
+        name: 'Social Media Platform for Students & Universities Project',
     },
 }));
 </script>

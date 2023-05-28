@@ -4,9 +4,9 @@ useHead({
 });
 const identity_text = ref('Memories, Parties and Dates');
 const _sns = ref([
-    { name: 'Facebook', icon: 'mdi:facebook', url: 'https://www.facebook.com/ChocoLatte.Channel' },
-    { name: 'Linkedin', icon: 'mdi:linkedin', url: 'https://www.facebook.com/ChocoLatte.Channel' },
-    { name: 'Instagram', icon: 'mdi:instagram', url: 'https://www.instagram.com/chocolattech_' },
+    { name: 'Facebook', icon: 'mdi:facebook', url: 'https://www.facebook.com/unyleague' },
+    { name: 'Linkedin', icon: 'mdi:linkedin', url: 'https://www.facebook.com/unyleague' },
+    { name: 'Instagram', icon: 'mdi:instagram', url: 'https://www.instagram.com/unyleague' },
 ]);
 </script>
 
@@ -40,7 +40,7 @@ const _sns = ref([
                     icon-class="w-6 h-6" />
             </div>
             <div>
-                <img src="/img/studentstree.png" alt="Students tree" class="h-[25rem]"/>
+                <img src="/img/studentstreemin.png" alt="Students tree" class="h-[25rem]"/>
             </div>
         </div>
         <div class="lg:flex">

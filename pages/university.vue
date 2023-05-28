@@ -43,7 +43,7 @@ const identity_text = ref('Communication, Promotion, Environment');
                     </p>
                 </div>
                 <div class="pb-2 lg:flex-1">
-                    <img src="/img/album.png" alt="Traveler model" class="h-[25rem] m-auto" />
+                    <img src="/img/albummin.png" alt="Traveler model" class="h-[25rem] m-auto" />
                 </div>
             </div>
             <h2 class="text-lg text-chocolate-600 font-semibold my-2">Three services: {{ identity_text }}</h2>

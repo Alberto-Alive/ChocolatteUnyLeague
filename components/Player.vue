@@ -16,13 +16,13 @@ export default {
   data() {
     return {
       songUrls: {
-        '/students': '/mp3/st2.mp3',
-        '/university': '/mp3/un.mp3',
-        '/downloads': '/mp3/s5.mp3',
-        '/contact': '/mp3/ct1.mp3',
-        '/schedule': '/mp3/s8.mp3',
-        '/groups': '/mp3/gr1.mp3',
-        '/credits': '/mp3/pf.mp3',
+        '/students': '/mp3/students.mp3',
+        '/university': '/mp3/university.mp3',
+        '/downloads': '/mp3/downloads.mp3',
+        '/contact': '/mp3/contact.mp3',
+        '/schedule': '/mp3/schedule.mp3',
+        '/groups': '/mp3/groups.mp3',
+        '/credits': '/mp3/credits.mp3',
       },
       isPlayedOnce: false,
     };

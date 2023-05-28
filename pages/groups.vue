@@ -7,14 +7,14 @@ const groups = [
     {
         name: '..join a Fraternity',
         desc: 'Joining a fraternity is one of the best decisions you can make in college. Fraternities offer a unique and rewarding college experience that you won\'t find anywhere else. Fraternity life is all about brotherhood, friendship, and fun. You\'ll make lifelong friends who will support you through thick and thin.',
-        img: '/img/fr.png',
+        img: '/img/frmin.png',
         icon: 'man',
         url: 'https://www.youtube.com/watch?v=tFlI19513Ao',
     },
     {
         name: 'or a Sorority...',
         desc: 'Sororities are more than just social clubs. They\'re a community of like-minded girls who support each other through thick and thin. Whether you\'re looking for a place to make lifelong friends, get involved on campus, or just have some fun, joining a sorority is the perfect way to make the most of your college experience.',
-        img: '/img/sr.png',
+        img: '/img/srmin.png',
         icon: 'woman',
         url: 'https://www.youtube.com/watch?v=mBAYmz6dfqw',
     }

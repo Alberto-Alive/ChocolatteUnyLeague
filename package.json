@@ -16,13 +16,16 @@
         "email": "me@falcxxdev.ml"
     },
     "devDependencies": {
+        "@cloudgeek/vitar": "^0.1.11",
         "@nuxtjs/tailwindcss": "6.6.4",
         "nuxt": "3.3.1",
         "nuxt-icon": "0.3.3",
         "nuxt-jsonld": "2.0.7",
         "prettier": "2.8.6",
         "sitemap-generator-cli": "7.5.0",
-        "typescript": "5.0.2",
-        "@cloudgeek/vitar": "^0.1.11"
+        "typescript": "5.0.2"
+    },
+    "dependencies": {
+        "@vueuse/core": "^10.1.2"
     }
 }

@@ -79,19 +79,19 @@ const _sns = ref([
         <div class="grid grid-cols-1 gap-2 md:grid-cols-3 mt-4">
             <div class="grid-card group flex items-center justify-center" @mouseover=" identity_text = 'Memories'"
                 @mouseleave=" identity_text = '📷'">
-                <img class="grid-card-img  object-cover  m-auto" src="/img/art/selfie.gif"
+                <img class="grid-card-img  object-cover  m-auto" src="/img/art/selfiemin.gif"
                     style="width: 350px; height: 200px;" alt="Memories" />
                 <p class="text-lg text-chocolate-600 font-semibold my-2">Memories</p>
             </div>
             <div class="grid-card group bg-[#c9ecff] flex items-center justify-center"
                 @mouseover=" identity_text = 'Parties'" @mouseleave=" identity_text = '🎉'">
-                <img class="grid-card-img object-cover object-center m-auto" src="/img/art/party.gif"
+                <img class="grid-card-img object-cover object-center m-auto" src="/img/art/partymin.gif"
                     style="width: 350px; height: 200px;" alt="Parties" />
                 <p class="text-2xl text-chocolate-600 font-semibold my-2">Parties</p>
             </div>
             <div class="grid-card group bg-[#edcaf4] flex items-center justify-center" @mouseover=" identity_text = 'Dates'"
                 @mouseleave=" identity_text = '💓'">
-                <img class="grid-card-img  object-cover object-center m-auto" src="/img/art/love.gif"
+                <img class="grid-card-img  object-cover object-center m-auto" src="/img/art/lovemin.gif"
                     style="width: 350px; height: 200px;" alt="Dates" />
                 <p class="text-4xl text-chocolate-600 font-semibold my-2">Dates</p>
             </div>

@@ -19,7 +19,7 @@ const display = reactive({
     <vitar
       :show-mesh="showMesh"
       :show-cam="showCam"
-      :z-index="666"
+      :z-index="9999"
       :model="model"
       :display="display"
     />

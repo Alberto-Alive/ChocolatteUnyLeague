@@ -31,7 +31,7 @@ const provider = ref([
                     </a>
                 </div>
                 <div >
-                <img src="/img/cupboymin.png" alt="Cupboy model" class="h-[10rem]" />
+                <img src="/img/cupboymin.png" alt="Cupboy model" class="hidden lg:block lg:h-[10rem]" />
             </div>
             </div>
             <div class="p-2 lg:flex-1">

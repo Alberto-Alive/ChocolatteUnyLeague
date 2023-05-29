@@ -29,9 +29,9 @@ useJsonld((): any => ({
     <Navigation/>
     <NuxtLoadingIndicator color="#FF6C9B" :throttle="0" :height="3" />
     <div class="container mx-auto p-4 font-lexend">
-        <slot />
+        <slot/>
     </div>
-    <VitarView />
+    <VitarView/>
     <Player/>
 </template>
 

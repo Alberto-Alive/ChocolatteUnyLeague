@@ -47,38 +47,38 @@ const dev = ref({
                         I am the person that conceptualized and had the pleasure to develop Unyleague. A lot of the credit
                         for this work goes to the community:
                     </p>
-                    <p class="text-sm text-chocolate-700 text-center my-2">
+                    <p class="text-sm text-chocolate-700 text-center my-2 content-evenly">
                         Sound:
-                        <a :href="dev.lowliike" class="bg-orange-400 p-1 px-3 rounded-xl my-3 text-white">
+                        <a :href="dev.lowliike" class="bg-orange-400 pa-1 mr-1 px-3 rounded-xl my-3 text-white">
                             LowLiike
                         </a>
-                        <a :href="dev.omfg" class="bg-sky-400 p-1 px-3 rounded-xl my-3 text-white">
+                        <a :href="dev.omfg" class="bg-sky-400 pa-1 mr-1 px-3 rounded-xl my-3 text-white">
                             OMFG
                         </a>
-                        <a :href="dev.s3rl" class="bg-yellow-400 p-1 px-3 rounded-xl my-3 text-white">
+                        <a :href="dev.s3rl" class="bg-yellow-400 pa-1 mr-1 px-3 rounded-xl my-3 text-white">
                             S3RL
                         </a>
-                        <a :href="dev.choco" class="bg-red-400 p-1 px-3 rounded-xl my-3 text-white">
+                        <a :href="dev.choco" class="bg-red-400 pa-1 mr-1 px-3 rounded-xl my-3 text-white">
                             Choco
                         </a>
-                        <a :href="dev.odesza" class="bg-green-400 p-1 px-3 rounded-xl my-3 text-white">
+                        <a :href="dev.odesza" class="bg-green-400 pa-1 mr-1 px-3 rounded-xl my-3 text-white">
                             ODESZA
                         </a>
                     </p>
                     <p class="text-sm text-chocolate-700 text-center my-2">
                         Image:
-                        <a :href="dev.pngegg" class="bg-purple-400 p-1 px-3 rounded-xl my-3 text-white">
+                        <a :href="dev.pngegg" class="bg-purple-400 pa-1 mr-1 px-3 rounded-xl my-3 text-white">
                             PngEgg
                         </a>
-                        <a :href="dev.imgbin" class="bg-pink-400 p-1 px-3 rounded-xl my-3 text-white">
+                        <a :href="dev.imgbin" class="bg-pink-400 pa-1 px-3 rounded-xl my-3 text-white">
                             ImgBin
                         </a>
                     </p>
                     <p class="text-sm text-chocolate-700 text-center my-2">
                         Plugin:
                         <br class="block md:hidden" />
-                        <a :href="dev.vitar" class="bg-slate-400 bg-opacity-70 p-1 px-3 rounded-xl my-3 text-sky-700">
-                            <Icon name="mdi:cog" width="18" height="18" />
+                        <a :href="dev.vitar" class="bg-slate-400 bg-opacity-70 pa-1 px-3 rounded-xl my-3 text-sky-700">
+                            <Icon name="mdi:cog" width="12" height="12" />
                             Vitar
                         </a>
                     </p>

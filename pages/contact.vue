@@ -17,25 +17,25 @@ const provider = ref([
                     You can contact us by email or phone:
                 </p>
                 <div class="lg:grid lg:gap-2 mt-4">
-                    <a v-for="prov in provider" :href="prov.url" class="button w-50 my-1 relative" target="_blank"
+                    <a v-for="prov in provider" :href="prov.url" class="button w-full md:w-72 my-1 relative" target="_blank"
                         rel="noreferrer" @mouseenter="prov.show = true" @mouseleave="prov.show = false">
                         <Icon :name="'material-symbols:' + prov.icon" class="block flex-grow-0 shrink-0" width="32"
                             height="32" />
                         <span v-if="prov.show"
-                            class="w-full opacity-0 hover:opacity-100 transition-opacity duration-300 z-10">
+                            class="w-full text-[12px] sm:text-xs opacity-0 hover:opacity-100 transition-opacity duration-300 z-10">
                             {{ prov.details }}
                         </span>
-                        <span v-else class="w-full">
+                        <span v-else class="w-full text-xs">
                             {{ prov.cover }}
                         </span>
                     </a>
                 </div>
                 <div >
-                <img src="/img/cupboymin.png" alt="Traveler model" class="h-[10rem]" />
+                <img src="/img/cupboymin.png" alt="Cupboy model" class="h-[10rem]" />
             </div>
             </div>
             <div class="p-2 lg:flex-1">
-                <img src="/img/postmanmin.png" alt="Postman model" class="h-[25rem] m-auto" />
+                <img src="/img/postmanmintrim.png" alt="Postman model" class="h-[22rem] m-auto" />
             </div>
         </div>
         <p class="text-lg text-chocolate-600 font-semibold my-2">We'll reply within 3-working days. Thanks for contacting us!</p>

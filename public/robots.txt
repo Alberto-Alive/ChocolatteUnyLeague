@@ -3,4 +3,4 @@ Disallow: /students
 Disallow: /credits
 Disallow: /logs
 
-Sitemap: https://chocolatte.falcxxdev.cyou/page-sitemap.xml
+Sitemap: https://unyleague.com/page-sitemap.xml

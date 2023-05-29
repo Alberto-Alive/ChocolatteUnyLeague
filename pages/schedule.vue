@@ -61,7 +61,7 @@ onMounted(() => {
                     <a href="https://www.youtube.com/watch?v=Iyt8nSFvQX4" target="_blank" rel="noreferrer nofollow me"
                         class="button w-full lg:w-96 my-3">
                         <Icon name="mdi:youtube" class="block flex-grow-0 shrink-0" width="32" height="32" />
-                        <span class="flex-grow flex-shrink text-left w-full">Watch it live on YouTube</span>
+                        <span class="flex-grow flex-shrink text-xs sm:txt-base text-left w-full">Watch it live on YouTube</span>
                     </a>
                 </div>
                 <Button class="mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" name="credits" icon="uiw:uiw"

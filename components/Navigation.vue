@@ -3,8 +3,8 @@
         <header class="pt-4 px-4 lg:px-12 font-lexend">
             <nav class="mx-auto p-4 py-3 h-14 bg-[#f2e6e8] text-white flex justify-between shadow-lg rounded-2xl z-10">
                 <div class="w-fit">
-                    <NuxtLink to="/" class="navbar__link" aria-label="Choco Logo">
-                            <img src="/img/logotxtmin.png" alt="Logo" class="pt-1 w-36 m-auto h-auto" width="0" height="0" />
+                    <NuxtLink to="/" class="navbar__link" aria-label="Unyleague Logo">
+                            <img src="/img/logotxtmin.png" alt="Logo" class="pt-2 pr-2 md:pt-1 w-24 md:w-36 m-auto h-auto" width="0" height="0" />
                     </NuxtLink>
                 </div>
                 <div class="bg-white h-8 text-chocolate-900 rounded-lg px-4 transition-all">
@@ -34,7 +34,7 @@
                                 ><Icon name="bxs:envelope"
                             /></NuxtLink>
                         </li>
-                        <li class="navbar__list hidden md:block">
+                        <li class="navbar__list">
                             <NuxtLink to="/schedule" class="navbar__link" aria-label="Schedule page"
                                 ><Icon name="material-symbols:auto-schedule-rounded"
                             /></NuxtLink>

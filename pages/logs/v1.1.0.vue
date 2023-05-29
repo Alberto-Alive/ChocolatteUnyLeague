@@ -7,7 +7,7 @@ useHead({
             content: 'Brief informations about v1.1.0 update',
         },
         // Opengraph (Facebook, Discord & average SNS)
-        { name: 'og:title', content: 'v1.1.0 Changelogs | Choco Latte VTuber' },
+        { name: 'og:title', content: 'v1.1.0 Changelogs | Unyleague' },
         {
             name: 'og:description',
             content: 'Brief informations about v1.1.0 update',

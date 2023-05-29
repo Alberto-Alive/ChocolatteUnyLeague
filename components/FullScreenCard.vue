@@ -6,7 +6,7 @@
         <img
             src="/img/bells.gif"
             alt="Signature"
-            class="flex absolute h-28 bottom-[-85px] right-0 md:right-[-62px] -rotate-12 pointer-events-none sign"
+            class="flex absolute h-28 bottom-[-85px] right-[-62px] -rotate-12 pointer-events-none sign"
         />
     </div>
 </template>

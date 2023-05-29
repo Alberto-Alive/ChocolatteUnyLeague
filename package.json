@@ -3,7 +3,7 @@
     "version": "1.1.0",
     "type": "module",
     "scripts": {
-        "build": "vue-cli-service build --dest ./deploy_build",
+        "build": "nuxt build --dest ./deploy_build",
         "dev": "nuxt dev",
         "generate": "nuxt generate",
         "lint": "prettier -c .",

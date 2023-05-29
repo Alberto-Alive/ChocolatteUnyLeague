@@ -4,6 +4,9 @@ node_modules
 # Logs
 *.log*
 
+# Build files
+.output
+
 # VSCode settings & extensions
 .vscode
 

@@ -1,5 +1,5 @@
 {
-    "name": "chocolatte-nuxt",
+    "name": "unyleague",
     "version": "1.1.0",
     "type": "module",
     "scripts": {
@@ -10,10 +10,10 @@
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare"
     },
-    "license": "MIT",
+    "license": "Private",
     "author": {
-        "name": "Falcxxdev",
-        "email": "me@falcxxdev.ml"
+        "name": "Alberto",
+        "email": "alberto-alive@outlook.com"
     },
     "devDependencies": {
         "@cloudgeek/vitar": "^0.1.11",

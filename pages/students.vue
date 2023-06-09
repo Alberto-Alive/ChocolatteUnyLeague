@@ -30,7 +30,7 @@ const _sns = ref([
                         rel="noreferrer">happy link?!?</a>
                     <br /><br />
                     Now is time for you to <span>
-                        <Button class="mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4" name="join" icon="uiw:uiw"
+                        <Button class="mx-auto  max-w-max lg:max-w-min px-4 sm:w-40 max-h-4 text-xs" name="join" icon="uiw:uiw"
                             dest="/groups" icon-class="w-2 h-2" />
                     </span> a fraternity<span class="italic"> / or / </span>sorority.
                     <br />

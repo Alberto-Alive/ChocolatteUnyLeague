@@ -23,11 +23,11 @@ onMounted(() => {
         <div class="p-2">
             <h1 class="text-3xl text-chocolate-700 font-bold text-center">Live Schedule</h1>
             <FullScreenCard class="lg:w-[50rem] h-auto m-auto text-center schedule">
-                <RoundFlexCard class="h-[13rem] lg:h-auto m-auto">
+                <RoundFlexCard class="m-auto">
                     <div class="p-2 lg:py-16 lg:flex-1">
                         <img src="/img/sgmin.png" alt="Traveler model" class="h-[7rem] lg:h-[10rem] m-auto" />
                     </div>
-                    <div class="lg:p-2 lg:py-16 lg:flex lg:w-1/2">
+                    <div class="pb-8 lg:p-2 lg:py-16 lg:flex lg:w-1/2">
                         <div class="lg:my-4 lg:mt-22 mx-auto text-center">
                             <h1 ref="scheduleDate" class="text-xs lg:text-sm text-chocolate-800 text-center font-bold"></h1>
                             <p class="text-[0.65rem] sm:text-xs lg:text-sm text-chocolate-700 my-1 lg:my-3 text-center">
